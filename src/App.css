@@ -1,0 +1,106 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff5e1;
+  color: #333;
+}
+
+header {
+  background-color: #ff7043;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-bottom: 5px solid #f57c00;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #ff7043;
+}
+
+.competition-card {
+  background-color: #fff8e7;
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid #ff7043;
+  border-radius: 8px;
+}
+
+.dinner-list {
+  list-style: none;
+  padding: 0;
+}
+
+.dinner-list li {
+  background-color: #ffeecc;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.banner-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.schedule-table th, .schedule-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.schedule-table th {
+  background-color: #ff7043;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ff7043;
+  color: white;
+  border-top: 5px solid #f57c00;
+  margin-top: 20px;
+}
+img {
+  height: min-content;
+}
