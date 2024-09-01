@@ -1,5 +1,4 @@
-/* src/App.css */
-
+/* Global Styles */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -46,10 +45,22 @@ nav a:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+/* Headings */
+h2, h3 {
   color: #ff7043;
 }
 
+.banner-image {
+  width: 100%;
+   /* Limit width for desktop */
+  height: auto;
+  max-height: 400px; /* Limit the maximum height */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: cover; /* Ensures the image scales properly */
+}
+
+/* Competition Cards */
 .competition-card {
   background-color: #fff8e7;
   padding: 15px;
@@ -58,6 +69,7 @@ h2 {
   border-radius: 8px;
 }
 
+/* Dinner List */
 .dinner-list {
   list-style: none;
   padding: 0;
@@ -70,12 +82,7 @@ h2 {
   border-radius: 5px;
 }
 
-.banner-image {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
+/* Schedule Table */
 .schedule-table {
   width: 100%;
   border-collapse: collapse;
@@ -93,69 +100,7 @@ h2 {
   color: white;
 }
 
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #ff7043;
-  color: white;
-  border-top: 5px solid #f57c00;
-  margin-top: 20px;
-}
-img {
-  height: min-content;
-}
-/* src/App.css */
-
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #fff5e1;
-  color: #333;
-}
-
-header {
-  background-color: #ff7043;
-  padding: 20px;
-  text-align: center;
-  color: white;
-  border-bottom: 5px solid #f57c00;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.5em;
-}
-
-nav {
-  margin-top: 10px;
-}
-
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #ffcc00;
-}
-
-.container {
-  width: 80%;
-  max-width: 800px;
-  margin: 20px auto;
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-h2, h3 {
-  color: #ff7043;
-}
-
+/* Menu Section */
 .menu-section h4 {
   color: #f57c00;
   margin-top: 20px;
@@ -176,6 +121,7 @@ h2, h3 {
   color: #333;
 }
 
+/* Contact Section */
 .contact-section {
   background-color: #ffede0;
   padding: 15px;
@@ -190,6 +136,7 @@ h2, h3 {
   color: #333;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 10px;
@@ -197,4 +144,12 @@ footer {
   color: white;
   border-top: 5px solid #f57c00;
   margin-top: 20px;
+}
+
+/* Image adjustment for smaller screens */
+@media (max-width: 768px) {
+  .banner-image {
+    max-width: 100%; /* Makes image full width on smaller screens */
+    max-height: 250px; /* Adjust height for smaller screens */
+  }
 }
