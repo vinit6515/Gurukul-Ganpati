@@ -13,25 +13,29 @@ const Schedule = () => {
           </tr>
         </thead>
         <tbody>
+        <tr>
+            <td>6th September</td>
+            <td>AAGMAN</td>
+          </tr>
           <tr>
             <td>7th September</td>
-            <td>Opening Ceremony and Cultural Performances</td>
+            <td>Opening Ceremony</td>
           </tr>
           <tr>
             <td>8th September</td>
-            <td>Art and Rangoli Competition</td>
+            <td>Drawing Competition , Rangoli Making Competition , Religious Quiz , Aarti Thali Decoration Competition</td>
           </tr>
           <tr>
             <td>9th September</td>
-            <td>Dance and Singing Competition</td>
+            <td>Origami Competition , Chappan Bhog</td>
           </tr>
           <tr>
             <td>10th September</td>
-            <td>Cooking Competition</td>
+            <td>Coaster Making Workshop & Jewellery Making Workshop ,Antakshri</td>
           </tr>
           <tr>
             <td>11th September</td>
-            <td>Prize Distribution and Closing Ceremony</td>
+            <td>Visarjan Ceremony</td>
           </tr>
         </tbody>
       </table>

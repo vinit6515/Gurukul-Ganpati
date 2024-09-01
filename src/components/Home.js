@@ -1,6 +1,6 @@
 // src/components/Home.js
 import React from 'react';
-import ganapatiImage from '../assets/ganapati.jpg'; // Ensure you have an image in the assets folder
+import ganapatiImage from '../assets/ganapati.jpeg'; // Ensure you have an image in the assets folder
 
 const Home = () => {
   return (

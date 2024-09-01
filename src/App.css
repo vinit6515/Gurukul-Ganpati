@@ -104,3 +104,97 @@ footer {
 img {
   height: min-content;
 }
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff5e1;
+  color: #333;
+}
+
+header {
+  background-color: #ff7043;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-bottom: 5px solid #f57c00;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  color: #ff7043;
+}
+
+.menu-section h4 {
+  color: #f57c00;
+  margin-top: 20px;
+  font-size: 1.2em;
+  border-bottom: 2px solid #ff7043;
+  padding-bottom: 5px;
+}
+
+.menu-section ul {
+  list-style-type: disc;
+  margin: 10px 0 20px 20px;
+  padding: 0;
+}
+
+.menu-section ul li {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #333;
+}
+
+.contact-section {
+  background-color: #ffede0;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 1px solid #ff7043;
+}
+
+.contact-section p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ff7043;
+  color: white;
+  border-top: 5px solid #f57c00;
+  margin-top: 20px;
+}
