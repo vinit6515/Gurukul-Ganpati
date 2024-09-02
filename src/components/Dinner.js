@@ -3,10 +3,8 @@ import React from 'react';
 
 const Dinner = () => {
   const menu = {
-    starters: ['Pani Puri', 'Sabudana Vada', 'Batata Vada'],
-    mainCourses: ['Puran Poli', 'Masala Bhaat', 'Amti (Maharashtrian Dal)', 'Bhakri with Zunka'],
-    desserts: ['Modak', 'Shrikhand', 'Jalebi'],
-    beverages: ['Masala Chai', 'Aam Panna', 'Lassi']
+    mainCourse: ['Pav Bhaji ( Jain & Non-Jain Option Available)'],
+    dessert: ['Kulfi']
   };
 
   const contactDetails = {
@@ -18,34 +16,20 @@ const Dinner = () => {
   return (
     <div className="container">
       <h2>Dinner Details</h2>
-      <p>Join us for a delicious community dinner on <strong>9th September 2024</strong>!</p>
+      <p>Join us for a delicious community dinner on <strong>9th September 2024</strong> at <strong>8 PM onwards</strong>!</p>
       
       <h3>Menu</h3>
       <div className="menu-section">
-        <h4>Starters</h4>
+        <h4>Main Course</h4>
         <ul>
-          {menu.starters.map((item, index) => (
+          {menu.mainCourse.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
 
-        <h4>Main Courses</h4>
+        <h4>Dessert</h4>
         <ul>
-          {menu.mainCourses.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-
-        <h4>Desserts</h4>
-        <ul>
-          {menu.desserts.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-
-        <h4>Beverages</h4>
-        <ul>
-          {menu.beverages.map((item, index) => (
+          {menu.dessert.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
@@ -54,7 +38,7 @@ const Dinner = () => {
       <h3>Contact for Passes</h3>
       <div className="contact-section">
         <p>To collect the dinner passes, please contact:</p>
-        <p><strong>Name:</strong> {contactDetails.name}</p>
+        <p><strong>Name:</strong> {contactDetails.name} </p>
         <p><strong>Phone:</strong> {contactDetails.phone}</p>
         <p><strong>Flat No:</strong> B-502</p>
       </div>

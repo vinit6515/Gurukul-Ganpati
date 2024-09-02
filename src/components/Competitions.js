@@ -2,42 +2,62 @@
 import React from 'react';
 
 const Competitions = () => {
+  const competitions = [
+    {
+      name: 'Drawing Competition',
+      description: 'Theme: Festival or Nature',
+      place: 'Mandap ,8 September 2024 [2:00PM - 3:00PM]',
+      organizer: 'Mr. Medhansh Rao',
+      phone: '9833105558',
+    },
+    {
+      name: 'Rangoli Making Competition',
+      description: 'Showcase your creativity skills',
+      place: 'To be confirmed, 8 September 2024 [3:00PM - 5:00PM]',
+      organizer: 'Ms. Bhagyashree',
+      phone: '9313530910',
+    },
+    {
+      name: 'Aarti Thali Decoration Competition',
+      description: 'Open for all age',
+      place: 'Mandap , 8 September 2024[7:00PM onwards]',
+      organizer: 'Mr. Vinay Jogi',
+      phone: '9833705011',
+    },
+    {
+      name: 'Origami Competition',
+      description: 'Theme - Festival or Nature',
+      place: 'Mandap, 9 September 20204[2:00PM - 4:00PM]',
+      organizer: 'Mr. Darshit Jain',
+      phone: '8104385610',
+    },
+    {
+      name: 'Religious Quiz Competition',
+      description: 'Upto 10th std and above 60 years',
+      place: 'Mandap ,8 September 2024 [6:30PM-7:30PM]',
+      organizer: 'Mr. Dhruv Jain',
+      phone: '9820746602',
+    },
+    {
+      name: 'Jewellery Making Workshop & Coaster Making Workshop',
+      description: 'In collaboration with Fevicryl',
+      place: 'A-Wing Rescue Flat , 10th September 2024[ 3:30PM - 5:00PM ]',
+      organizer: 'Mr. Suditya',
+      phone: '9987346621',
+    },
+  ];
+
   return (
     <div className="container">
       <h2>Competitions</h2>
-      <p>Participate in the exciting competitions and showcase your talents!</p>
-      <ul>
-        <li>
-          <h3>Rangoli Competition</h3>
-          <p>Date: 8th September</p>
-          <p>Description: Create beautiful Rangoli designs and bring out your creativity!</p>
-        </li>
-        <li>
-          <h3>Cultural Dance Night</h3>
-          <p>Date: 8th September</p>
-          <p>Description: Participate in the dance night and showcase your dance moves!</p>
-        </li>
-        <li>
-          <h3>Singing Competition</h3>
-          <p>Date: 9th September</p>
-          <p>Description: Sing your heart out and impress the audience with your voice.</p>
-        </li>
-        <li>
-          <h3>Quiz Contest</h3>
-          <p>Date: 9th September</p>
-          <p>Description: Test your knowledge in our quiz contest and win exciting prizes.</p>
-        </li>
-        <li>
-          <h3>Drawing Competition</h3>
-          <p>Date: 10th September</p>
-          <p>Description: Unleash your inner artist and create stunning drawings.</p>
-        </li>
-        <li>
-          <h3>Fancy Dress</h3>
-          <p>Date: 10th September</p>
-          <p>Description: Dress up in your best costume and participate in the fancy dress competition.</p>
-        </li>
-      </ul>
+      {competitions.map((comp, index) => (
+        <div key={index} className="competition-card">
+          <h3>{comp.name}</h3>
+          <p>{comp.description}</p>
+          <p><strong>Place:</strong> {comp.place}</p>
+          <p><strong>To register , Contact:</strong> {comp.organizer} | <strong>Phone Number:</strong> {comp.phone}</p>
+        </div>
+      ))}
     </div>
   );
 };
