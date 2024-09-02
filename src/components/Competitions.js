@@ -5,7 +5,7 @@ const Competitions = () => {
   const competitions = [
     {
       name: 'Drawing Competition',
-      description: 'Theme: Festival or Nature',
+      description: 'Join us.',
       place: 'Mandap ,8 September 2024 [2:00PM - 3:00PM]',
       organizer: 'Mr. Medhansh Rao',
       phone: '9833105558',
@@ -26,7 +26,7 @@ const Competitions = () => {
     },
     {
       name: 'Origami Competition',
-      description: 'Theme - Festival or Nature',
+      description: 'Art & Craft',
       place: 'Mandap, 9 September 20204[2:00PM - 4:00PM]',
       organizer: 'Mr. Darshit Jain',
       phone: '8104385610',
@@ -43,7 +43,7 @@ const Competitions = () => {
       description: 'In collaboration with Fevicryl & Pidilite',
       place: 'A-Wing Rescue Flat , 10th September 2024[ 3:30PM - 5:00PM ]',
       organizer: 'Mr. Suditya',
-      phone: '9987346621',
+      phone: '998734662',
     },
   ];
 
