@@ -15,11 +15,11 @@ const Schedule = () => {
         <tbody>
         <tr>
             <td>6th September</td>
-            <td>AAGMAN</td>
+            <td>Aagman ( 6:30 PM onwards )</td>
           </tr>
           <tr>
             <td>7th September</td>
-            <td>Opening Ceremony</td>
+            <td>Sptahpna Ceremony</td>
           </tr>
           <tr>
             <td>8th September</td>
@@ -35,7 +35,7 @@ const Schedule = () => {
           </tr>
           <tr>
             <td>11th September</td>
-            <td>Visarjan Ceremony</td>
+            <td>Visarjan Ceremony ( 6:30 PM Onwards )</td>
           </tr>
         </tbody>
       </table>

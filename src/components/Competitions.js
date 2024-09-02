@@ -14,8 +14,8 @@ const Competitions = () => {
       name: 'Rangoli Making Competition',
       description: 'Showcase your creativity skills',
       place: 'To be confirmed, 8 September 2024 [3:00PM - 5:00PM]',
-      organizer: 'Ms. Bhagyashree',
-      phone: '9313530910',
+      organizer: 'Ms. Nehanshi',
+      phone: '9152399712',
     },
     {
       name: 'Aarti Thali Decoration Competition',
