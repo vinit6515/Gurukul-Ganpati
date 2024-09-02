@@ -41,9 +41,9 @@ const Competitions = () => {
     {
       name: 'Jewellery Making Workshop & Coaster Making Workshop',
       description: 'In collaboration with Fevicryl & Pidilite',
-      place: 'A-Wing Rescue Flat , 10th September 2024[ 3:30PM - 5:00PM ]',
+      place: 'A-Wing Rescue Flat , 10th September 2024 [3:30PM - 5:00PM]',
       organizer: 'Mr. Suditya',
-      phone: '998734662',
+      phone: '9987346662',
     },
   ];
 
