@@ -19,7 +19,7 @@ const Schedule = () => {
           </tr>
           <tr>
             <td>7th September</td>
-            <td>Sptahpna Ceremony</td>
+            <td>Sthapana Ceremony</td>
           </tr>
           <tr>
             <td>8th September</td>
@@ -27,7 +27,7 @@ const Schedule = () => {
           </tr>
           <tr>
             <td>9th September</td>
-            <td>Origami Competition , Chappan Bhog</td>
+            <td>Origami Competition , Chappan Bhog , Dinner </td>
           </tr>
           <tr>
             <td>10th September</td>
